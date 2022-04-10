@@ -39,7 +39,11 @@ export default function Slider() {
           marginLeft: -20,
         }}
         slidesPerView={1}
+        grabCursor={true}
+        slideToClickedSlide={true}
         onSlideChange={() => console.log("slide change")}
+        centeredSlides={true}
+        loop={true}
         onSwiper={(swiper) => console.log(swiper)}
         pagination={{
           clickable: true,

@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.swiper-pagination-bullet-active {
+  font-weight: 600;
+}
