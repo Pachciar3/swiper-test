@@ -1,0 +1,37 @@
+.slider .slide {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  height: 400px;
+  color: #fff;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide1 {
+  background-color: #ef5350;
+}
+
+.slide2 {
+  background-color: #d81b60;
+}
+
+.slide3 {
+  background-color: #d81b60;
+}
+
+.slide4 {
+  background-color: #5e35b1;
+}
+
+.slide5 {
+  background-color: #3949ab;
+}
+
+.slide6 {
+  background-color: #43a047;
+}
